@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd src/
+zip -r -FS ../sci-hub-it-we.xpi *
