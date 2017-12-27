@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+		label, input {
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+	</style>
+  </head>
+
+<body>
+ <form id="default">
+      <label>
+		 Current site:
+		<input type="text" id="cursite" readonly>
+		<button type="submit">Reset</button>
+      </label>
+  </form>
+  
+  <form id="custom">
+      <label>
+		Custom site:
+        <input type="text" id="site" placeholder="Be careful (no checks)">
+		<button type="submit">Save</button>
+      </label>
+      
+  </form>
+  <script src="options.js"></script>
+</body>
+
+</html>
