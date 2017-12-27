@@ -23,7 +23,7 @@
   "permissions": ["tabs", "storage"],
   "applications": {
       "gecko": {
-          "id": "sci-hub-it-we@mozilla.org",
+          "id": "{35f72661-0316-4e6a-a2b7-b391368be010}",
           "strict_min_version": "57.0"
       }
   }
