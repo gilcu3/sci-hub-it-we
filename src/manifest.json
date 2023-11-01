@@ -1,8 +1,8 @@
 {
   "description": "Sci-Hub addon temporal replacement",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "sci-hub it",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
@@ -13,18 +13,16 @@
     "scripts": ["background.js"]
   },
 
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon-32.png"
   },
   "options_ui": {
-      "page": "options.html",
-      "browser_style": true
+      "page": "options.html"
   },
   "permissions": ["tabs", "storage"],
-  "applications": {
+  "browser_specific_settings": {
       "gecko": {
-          "id": "{35f72661-0316-4e6a-a2b7-b391368be010}",
-          "strict_min_version": "57.0"
+          "id": "scihub@gilcu3"
       }
   }
 }

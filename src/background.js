@@ -20,6 +20,6 @@ function openUrl() {
    browser.tabs.query({currentWindow: true, active: true}).then(logTabs, onError);
 }
 
-browser.browserAction.onClicked.addListener(openUrl);
+browser.action.onClicked.addListener(openUrl);
  
 

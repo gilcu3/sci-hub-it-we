@@ -1,4 +1,4 @@
-var default_site = 'sci-hub.tw'
+var default_site = 'sci-hub.se'
 
 function saveOptions(e) {
   var cur_site = document.querySelector("#site").value
